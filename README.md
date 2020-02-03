@@ -2,6 +2,8 @@
 
 This is the Vue Storefront part (module) of the Prismic integration. It requires the [Vue Storefront API counterpart (extension)](https://github.com/butopea/prismic-vue-storefront-api) to work.  
 
+Tested on Vue Storefront v1.11.0
+
 ## Data Flow:
 
 ![](docs/assets/dataflow.png)
@@ -9,16 +11,16 @@ This is the Vue Storefront part (module) of the Prismic integration. It requires
 ## Features:
 
 - [ ] Dynamic and prefixed URLs (via [mapping fallback](https://github.com/kodbruket/vsf-mapping-fallback/))
-- [ ] Server-side rendering (SSR)
+- [X] Server-side rendering (SSR)
 - [ ] Preview mode (non-cached, direct data retrieval)
 - [ ] In-website edit button
-- [ ] Webhook sync callback support (on publish)
+- [X] Webhook sync callback support (on publish)
 - [ ] CLI sync script (cronjob)
 - [ ] Queued sync (via Kue)
-- [ ] ElasticSearch data cache
-- [ ] Slices field support for dynamic page layouts
-- [ ] Content retrieval based on ID/UID, custom types, tags, filters, and languages
-- [ ] Document search
+- [X] ElasticSearch data cache
+- [X] Slices field support for dynamic page layouts
+- [X] Content retrieval based on ID/UID, custom types, tags, filters, and languages
+- [X] Document search
 
 ## Credits
 
